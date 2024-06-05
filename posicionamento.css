@@ -1,0 +1,46 @@
+div {
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    /* background: url(./images/Skype-status-icons-150.svg) -300px 0; */
+}
+
+button {
+    position:relative ;
+    text-align: right;
+}
+
+#navlist {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+
+#navlist li {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    background-image: url(./images/Skype-status-icons-150.svg);
+}
+
+#navlist li, #navlist a {
+    height: 150px;
+    width: 150px;
+    display: block;
+}
+
+#navlist .oculto {
+    display: none;
+} 
+
+li#home {
+    background-position-x: 0;
+}
+
+li#prev {
+    background-position-x: -150px;
+} 
+
+li#next {
+    background-position-x: -300px;
+}
